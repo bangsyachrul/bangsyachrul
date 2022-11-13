@@ -1,0 +1,45 @@
+header, main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .bar-item:hover {
+    opacity: .6;
+  }
+
+  .bar-item {
+    height: 25%;
+    padding: 5px;
+  }
+
+  .font-title { font-family: 'Lato', sans-serif; }
+
+  .round { border-radius: 20px; }
+
+  .line { width: 200px; margin: 5px 0; opacity: .7;}
+
+  .font-text { font-family: 'Raleway', sans-serif; }
+
+  .card-panel { height: 250px !important; }
+
+  .pt-1 { padding-top: 1rem; }
+
+  .pointer:hover { opacity: .8; }
+  
+  .pointer { cursor: zoom-in; }
+
+  .card-radius-1 { border-bottom-left-radius: 15px; border-top-right-radius: 15px; }
+  
+  .card-radius-2 { border-bottom-right-radius: 15px; border-top-left-radius: 15px; }
+  
+  .card-icon { margin: 13px 0 0 10px; }
